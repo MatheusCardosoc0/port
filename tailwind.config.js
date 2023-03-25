@@ -21,8 +21,9 @@ module.exports = {
         xs: "450px",
       },
       backgroundImage: {
-        "hero-pattern": "url('/src/assets/herobg.png')",
-        "black-gradient": "linear-gradient(to top left, rgb(8, 80, 4), rgb(1, 147, 60), rgb(32, 104, 11))"
+        "hero-pattern": "url('/herobg.png')",
+        "black-gradient": "linear-gradient(to top left, rgb(3, 0, 34), rgb(1, 147, 60), rgb(32, 104, 11))",
+        "radial": "linear-gradient(to top left, rgb(2, 0, 23), rgb(3, 0, 39) , rgb(3, 86, 7));"
       },
     },
   },

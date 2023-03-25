@@ -9,6 +9,7 @@ export default function Home() {
       <title>Matheus | Portfolio</title>
       <link rel='icon' type='image/svg+xml' href='/logo.svg' />
     </Head>
+
       <main className='relative z-0 bg-primary'>
         <div className='bg-hero-pattern bg-cover bg-no-repeat bg-center'>
           <Navbar />
