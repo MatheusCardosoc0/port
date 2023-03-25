@@ -1,4 +1,4 @@
-export type variantsMotionProps = {
+export interface variantsMotionProps {
   direction: 'left' | 'right' | 'up' | 'down'
   type: 'tween' | 'spring'
   delay: number

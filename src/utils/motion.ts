@@ -18,7 +18,10 @@ export const textVariant = ({delay}: Pick<variantsMotionProps, 'delay'>) => {
   };
 };
 
-export const fadeIn = ({delay, direction, duration,type}: variantsMotionProps) => {
+export const fadeIn = (options: variantsMotionProps) => {
+
+  const {delay, direction, duration, type} = options
+
   return {
     hidden: {
       x: direction === "left" ? 100 : direction === "right" ? -100 : 0,
@@ -39,7 +42,10 @@ export const fadeIn = ({delay, direction, duration,type}: variantsMotionProps) =
   };
 };
 
-export const zoomIn = ({delay, duration} : Pick<variantsMotionProps, 'delay' | 'duration' >) => {
+export const zoomIn = (options : Pick<variantsMotionProps, 'delay' | 'duration' >) => {
+
+  const {delay,duration} = options
+
   return {
     hidden: {
       scale: 0,
@@ -58,7 +64,10 @@ export const zoomIn = ({delay, duration} : Pick<variantsMotionProps, 'delay' | '
   };
 };
 
-export const slideIn = ({delay, direction, duration, type}: variantsMotionProps) => {
+export const slideIn = (options: variantsMotionProps) => {
+
+  const {delay, direction, duration, type} = options
+
   return {
     hidden: {
       x: direction === "left" ? "-100%" : direction === "right" ? "100%" : 0,

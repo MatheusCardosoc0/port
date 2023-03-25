@@ -25,7 +25,17 @@ module.exports = {
         "black-gradient": "linear-gradient(to top left, rgb(3, 0, 34), rgb(1, 147, 60), rgb(32, 104, 11))",
         "radial": "linear-gradient(to top left, rgb(2, 0, 23), rgb(3, 0, 39) , rgb(3, 86, 7));"
       },
+      animation: {
+        bounce: 'bounce 4s ease-in-out infinite'
+      },
+      keyframes : {
+        bounce: {
+          '0%, 100%': {
+            transform: 'translateY(20px)',
+          }
+        },
     },
   },
   plugins: [],
+}
 }

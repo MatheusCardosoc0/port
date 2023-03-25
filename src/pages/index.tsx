@@ -1,5 +1,4 @@
-import { About, Contact, Experience, Feedbacks, Hero, Navbar, StarsCanvas, Tech, Works } from '@/components'
-import { styles } from '@/styles/modules.styles'
+import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works } from '@/components'
 import Head from 'next/head'
 
 export default function Home() {
@@ -22,7 +21,6 @@ export default function Home() {
         <Feedbacks />
         <div className='relative z-0'>
           <Contact />
-          <StarsCanvas />
         </div>
       </main>
     </>

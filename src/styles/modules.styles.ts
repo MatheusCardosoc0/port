@@ -5,7 +5,7 @@ const styles = {
   shadowBasic: "drop-shadow-[2px_1px_3px_black]",
 
   heroHeadText:
-    "font-black text-white lg:text-[80px] sm:text-[60px] xs:text-[50px] text-[40px] lg:leading-[98px] mt-2",
+    "font-black lg:text-[80px] sm:text-[60px] xs:text-[50px] text-[30px] lg:leading-[98px] mt-2",
   heroSubText:
     "text-[#dfd9ff] font-medium lg:text-[30px] sm:text-[26px] xs:text-[20px] text-[16px] lg:leading-[40px]",
 
@@ -14,8 +14,9 @@ const styles = {
   sectionSubText:
     "sm:text-[18px] text-[14px] text-secondary uppercase tracking-wider",
   
-  text:
-    "text-3xl color-[#888] bg-green-800"
+  text: "text-3xl color-[#888] bg-green-800",
+
+  paragraph: "text-base md:text-lg font-medium"
 };
 
 export { styles };
