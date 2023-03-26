@@ -1,4 +1,7 @@
 /** @type {import('tailwindcss').Config} */
+
+const {fontFamily} = require('tailwindcss/defaultTheme')
+
 module.exports = {
   content: [
     "./src/**/*.{js,ts,jsx,tsx}",
@@ -6,6 +9,9 @@ module.exports = {
   mode: "jit",
   theme: {
     extend: {
+      fontFamily: {
+        wdc: ['var(--playfair)', ...fontFamily.sans]
+      },
       colors: {
         primary: "#050816",
         secondary: "#aaa6c3",
@@ -21,6 +27,7 @@ module.exports = {
         xs: "450px",
       },
       backgroundImage: {
+        "about-pattern": "url('/aboutbg.png')",
         "hero-pattern": "url('/herobg.png')",
         "black-gradient": "linear-gradient(to top left, rgb(3, 0, 34), rgb(1, 147, 60), rgb(32, 104, 11))",
         "radial": "linear-gradient(to top left, rgb(2, 0, 23), rgb(3, 0, 39) , rgb(3, 86, 7));"

@@ -27,3 +27,75 @@ body{
     border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
   }
 }
+
+.BUTTON{
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+  user-select: none;
+  text-decoration: none;
+  border: none;
+  padding: 4px 6px;
+  color: #fff;
+}
+
+.BUTTON-RIPPLE{
+  overflow: hidden;
+}
+
+.RIPPLE-EFFECT{
+  position: absolute;
+  background-color: #000000;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  width: 5px;
+  height: 5px;
+  pointer-events: none;
+  z-index: 100;
+  animation: ripple 0.7s linear infinite;
+}
+
+.RIPPLE-EFFECT-TWO {
+  position: absolute;
+  background-color: #f4f4f4;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  width: 5px;
+  height: 5px;
+  pointer-events: none;
+  z-index: 1;
+  top: 50%;
+  left: 10%;
+  animation: ripple 10s ease infinite;
+}
+
+.BACK{
+  background: linear-gradient(to top right, rgba(1, 58, 21, 0.504),rgba(64, 184, 0, 0.437), rgba(8, 123, 180, 0.379), rgba(3, 106, 202, 0.412), rgba(0, 79, 119, 0.452));
+  border-radius: 20% 30% 40% 20%/10% 20% 60% 10%;
+  box-shadow: 1px 1px 10px  #000000;
+}
+
+@keyframes ripple {
+  0%{
+    width: 0;
+    height: 0;
+    opacity: 0.4;
+  }100%{
+    width: 300px;
+    height: 1000%;
+    opacity: 0;
+  }
+}
+
+
+.tilt-container {
+  transform: perspective(1000px) rotateX(10deg) rotateY(10deg);
+  transition: transform 0.5s ease;
+  will-change: transform;
+}
+
+.tilt-container:hover {
+  transform: perspective(1000px) rotateX(15deg) rotateY(15deg);
+}
+
