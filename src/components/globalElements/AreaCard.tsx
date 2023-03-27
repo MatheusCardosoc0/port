@@ -6,7 +6,7 @@ interface ProjectCardProps{
   children: ReactNode
 }
 
-const ProjectCard = ({children}: ProjectCardProps) => {
+const AreaCard = ({children}: ProjectCardProps) => {
   return (
     <ButtonRipple stylish={`bg-gradient-to-tr from-sky-500 via-green-400 to-blue-400 p-1`}
     ripple="#ffff">
@@ -17,4 +17,4 @@ const ProjectCard = ({children}: ProjectCardProps) => {
   )
 }
 
-export default ProjectCard
+export default AreaCard

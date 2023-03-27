@@ -25,7 +25,7 @@ const Navbar = () => {
             className='w-12 h-12 object-contain' />
 
           <p className='text-lg font-bold cursor-pointer'>
-            Matheus
+            Matheus Cardoso
             <span className='sm:block hidden'>| Programador front-end</span>
           </p>
         </Link>

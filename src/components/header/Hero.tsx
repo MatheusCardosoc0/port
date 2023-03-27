@@ -9,7 +9,7 @@ import { ContactLinks } from '@/constants/contatLinks'
 
 const Hero = () => {
   return (
-    <section className={`relative w-full h-full mx-auto mt-[80px] ${styles.padding}`}>
+    <section className={`relative w-full lg:pl-20 h-full mx-auto mt-[80px] ${styles.padding}`}>
       <motion.h1 className={`${styles.heroHeadText} text-white`}
         variants={fadeIn({ delay: 0.5, direction: 'down', duration: 1, type: 'spring' })}
         initial={"hidden"}

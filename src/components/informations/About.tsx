@@ -1,7 +1,7 @@
 import { typeProjects } from '@/constants/TypeProjects'
 import { styles } from '@/styles/modules.styles'
 import React from 'react'
-import ProjectCard from '../globalElements/ProjectCard'
+import ProjectCard from '../globalElements/AreaCard'
 
 const About = () => {
   return (

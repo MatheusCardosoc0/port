@@ -6,7 +6,7 @@ const styles = {
   container: "w-full max-w-7xl mx-auto",
   title2: "text-2xl md:text-6xl font-bold",
 
-  title: "text-2xl md:text-4xl ",
+  title: "text-2xl font-bold md:text-4xl ",
   paragraph: "text-lg md:text-xl font-semibold leading-[30px]",
 
   heroHeadText:
@@ -18,8 +18,6 @@ const styles = {
     "text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]",
   sectionSubText:
     "sm:text-[18px] text-[14px] text-secondary uppercase tracking-wider",
-
- 
 };
 
 export { styles };

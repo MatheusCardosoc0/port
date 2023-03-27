@@ -5,13 +5,13 @@ import { SiStyledcomponents } from 'react-icons/si'
 
 const Tech = () => {
   return (
-    <section className={`${styles.paddingY}`}>
+    <section className={`${styles.paddingY} overflow-x-hidden`}>
       <div className={`${styles.container} flex flex-col justify-center items-center`}>
         <h2 className={`${styles.title2}`}>
           Habilidades
         </h2>
 
-        <div className='triangle flex flex-col gap-6 w-full text-2xl sm:text-3xl md:text-5xl mt-20'>
+        <div className='triangle flex flex-col gap-6 w-[180%] text-3xl sm:text-4xl md:text-5xl mt-20'>
           <div className='flex-col'>
             <TbBrandNextjs title='Nextjs' />
             <TbBrandReact title='Reactjs' />
