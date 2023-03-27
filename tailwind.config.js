@@ -28,9 +28,11 @@ module.exports = {
       },
       backgroundImage: {
         "about-pattern": "url('/aboutbg.png')",
+        "tecnology-pattern": "url('/tecnologybg.png')",
         "hero-pattern": "url('/herobg.png')",
         "black-gradient": "linear-gradient(to top left, rgb(3, 0, 34), rgb(1, 147, 60), rgb(32, 104, 11))",
-        "radial": "linear-gradient(to top left, rgb(2, 0, 23), rgb(3, 0, 39) , rgb(3, 86, 7));"
+        "radial": "linear-gradient(to top left, rgb(2, 0, 23), rgb(3, 0, 39) , rgb(3, 86, 7))",
+        "common": "linear-gradient(to top left, #3b82f6, rgb(59, 230, 94) , #0ea5e9);"
       },
       animation: {
         bounce: 'bounce 4s ease-in-out infinite'

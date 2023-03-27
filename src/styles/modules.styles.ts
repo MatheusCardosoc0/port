@@ -1,12 +1,12 @@
 const styles = {
   paddingX: "sm:px-16 px-6",
   paddingY: "sm:py-16 py-6",
-  padding: "sm:px-8 px-4 sm:py-8 py-5",
+  padding: "sm:px-4 px-2 sm:py-5 py-3",
   shadowBasic: "drop-shadow-[2px_1px_3px_black]",
-  container: "w-full max-w-7xl ",
-  title2: "text-6xl font-bold",
+  container: "w-full max-w-7xl mx-auto",
+  title2: "text-2xl md:text-6xl font-bold",
 
-  title: "text-3xl color-[#888] bg-green-800",
+  title: "text-2xl md:text-4xl ",
   paragraph: "text-lg md:text-xl font-semibold leading-[30px]",
 
   heroHeadText:

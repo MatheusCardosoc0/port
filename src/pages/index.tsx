@@ -15,15 +15,19 @@ export default function Home() {
           <Hero />
         </div>
 
-        <div className='h-[12px] w-full bg-gradient-to-r from-[#02891d] via-[#013958] to-[#04b1b1]' />
+        <hr className='h-[12px] w-full bg-gradient-to-r from-[#02891d] via-[#013958] to-[#04b1b1]' />
 
         <div className='bg-about-pattern bg-cover bg-center bg-no-repeat py-12'>
           <About />
           <Experience />
-          <Tech />
         </div>
-        <Works />
-        <Feedbacks />
+
+        <hr className='h-[12px] w-full bg-gradient-to-r from-[#02891d] via-[#013958] to-[#04b1b1]' />
+
+        <div className='bg-tecnology-pattern bg-cover bg-center bg-no-repeat '>
+          <Tech />
+          <Works />
+        </div>
         <div className='relative z-0'>
           <Contact />
         </div>

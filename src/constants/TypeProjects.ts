@@ -1,4 +1,4 @@
-import { RiCommandFill, RiComputerFill, RiSmartphoneFill } from 'react-icons/ri'
+import { RiComputerFill, RiSmartphoneFill } from 'react-icons/ri'
 
 type TypeProjectsProps = {
   icon: any
@@ -8,10 +8,10 @@ type TypeProjectsProps = {
 export const typeProjects: TypeProjectsProps[] = [
   {
     icon: RiComputerFill,
-    title: 'Projetos web'
+    title: 'Desenvolvimento web'
   },
   {
     icon: RiSmartphoneFill,
-    title: 'Projetos mobile'
+    title: 'Desenvolvimeto mobile'
   }
 ] 

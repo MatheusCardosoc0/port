@@ -99,3 +99,19 @@ body{
   transform: perspective(1000px) rotateX(15deg) rotateY(15deg);
 }
 
+.triangle {
+  position: reltative;
+  clip-path: polygon(50% 0, 20% 100%, 80% 100%);
+}
+
+.triangle div{
+  background: linear-gradient(to top right, rgba(1, 58, 21, 0.504),rgba(64, 184, 0, 0.437), rgba(8, 123, 180, 0.379), rgba(3, 106, 202, 0.412), rgba(0, 79, 119, 0.452));
+  box-shadow: 1px 1px 20px  #000000;
+  width: 100%;
+  height: 140px;
+  align-items: center;
+  line-height: 100px;
+  display: flex;
+  justify-content: center;
+}
+
