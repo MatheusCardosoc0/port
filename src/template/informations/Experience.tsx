@@ -1,7 +1,7 @@
 import { experiences } from '@/constants/Experiences'
 import { styles } from '@/styles/modules.styles'
 import React from 'react'
-import CardExperience from '../globalElements/CardExperience'
+import CardExperience from '../../components/globalElements/CardExperience'
 
 const Experience = () => {
   return (

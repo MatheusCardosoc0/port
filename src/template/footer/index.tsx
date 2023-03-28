@@ -1,7 +1,7 @@
 import { ContactLinks } from '@/constants/contatLinks'
 import { styles } from '@/styles/modules.styles'
 import React from 'react'
-import ButtonRipple from '../globalElements/ButtonRipple'
+import ButtonRipple from '../../components/globalElements/ButtonRipple'
 
 const Contact = () => {
   return (
@@ -12,7 +12,7 @@ const Contact = () => {
           <h3 className={`${styles.title} mt-8`}>Matheus Cardoso Luiz Costa</h3>
         </span>
 
-        <span  className='text-xl font-semibold'>
+        <span className='text-xl font-semibold'>
           <p>Aparecida de Goiânia, Goias, Brasil.</p>
           <p>(62) 99604-2564</p>
         </span>

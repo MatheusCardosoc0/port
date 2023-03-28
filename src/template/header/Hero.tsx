@@ -4,7 +4,7 @@ import { fadeIn } from '@/utils/motion'
 import { motion } from 'framer-motion'
 import Image from 'next/image'
 import React from 'react'
-import ButtonRipple from '../globalElements/ButtonRipple'
+import ButtonRipple from '../../components/globalElements/ButtonRipple'
 import { ContactLinks } from '@/constants/contatLinks'
 
 const Hero = () => {

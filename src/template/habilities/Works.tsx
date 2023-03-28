@@ -1,7 +1,7 @@
 import { Projects } from '@/constants/Projects'
 import { styles } from '@/styles/modules.styles'
 import React from 'react'
-import ProjectsCard from '../globalElements/ProjectsCard'
+import ProjectsCard from '../../components/globalElements/ProjectsCard'
 
 const Works = () => {
   return (
