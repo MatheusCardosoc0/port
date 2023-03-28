@@ -19,7 +19,7 @@ const ProjectsCard = ({ project }: { project: ProjectProps }) => {
           <img src={`${project.image}`} />
         </a>
         <p className={`${styles.paragraph}`}>{project.description}</p>
-        <Anchor link={project.viewLink}
+        <Anchor link={project.githubLink}
         color={"bg-black drop-shadow-[0px_0px_3px_white]"}>
           <BsGithub />
         </Anchor>
