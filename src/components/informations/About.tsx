@@ -9,7 +9,7 @@ const About = () => {
       <div className={`${styles.container} p-4 ml-4 flex flex-col gap-6 items-start max-w-[500px] BACK tilt-container`}>
         <div>
           <p className='text-base text-white/75 '>Introdução</p>
-          <h2 className={`${styles.title2}`}>Sobre mim</h2>
+          <h2 className={`${styles.title2}`} id="sobre">Sobre mim</h2>
         </div>
         <div>
           <p className={` ${styles.paragraph} w-full sm:w-[480px]`}>

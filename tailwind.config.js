@@ -28,6 +28,7 @@ module.exports = {
       },
       backgroundImage: {
         "about-pattern": "url('/aboutbg.png')",
+        "contact-pattern": "url('/contactbg.png')",
         "tecnology-pattern": "url('/tecnologybg.png')",
         "hero-pattern": "url('/herobg.png')",
         "black-gradient": "linear-gradient(to top left, rgb(3, 0, 34), rgb(1, 147, 60), rgb(32, 104, 11))",

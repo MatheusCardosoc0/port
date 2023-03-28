@@ -12,7 +12,7 @@ const Works = () => {
           <p className={`${styles.paragraph} text-white/60`}>Projetos que realizei para praticar minhas habilidades</p>
         </div>
 
-        <div>
+        <div className='flex flex-col gap-4 items-center justify-center'>
           {Projects.map(project => (
             <ProjectsCard project={project} />
           ))}

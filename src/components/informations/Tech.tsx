@@ -7,7 +7,7 @@ const Tech = () => {
   return (
     <section className={`${styles.paddingY} overflow-x-hidden`}>
       <div className={`${styles.container} flex flex-col justify-center items-center`}>
-        <h2 className={`${styles.title2}`}>
+        <h2 className={`${styles.title2}`} id="habilidades">
           Habilidades
         </h2>
 

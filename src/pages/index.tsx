@@ -1,4 +1,4 @@
-import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works } from '@/components'
+import { About, Contact, Experience, Hero, Navbar, Tech, Works } from '@/components'
 import Head from 'next/head'
 
 export default function Home() {
@@ -28,7 +28,10 @@ export default function Home() {
           <Tech />
           <Works />
         </div>
-        <div className='relative z-0'>
+
+        <hr className='h-[12px] w-full bg-gradient-to-r from-[#02891d] via-[#013958] to-[#04b1b1]' />
+
+        <div className='relative z-0 bg-contact-pattern bg-cover bg-center bg-no-repeat'>
           <Contact />
         </div>
       </main>

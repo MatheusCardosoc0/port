@@ -4,7 +4,7 @@ const styles = {
   padding: "sm:px-4 px-2 sm:py-5 py-3",
   shadowBasic: "drop-shadow-[2px_1px_3px_black]",
   container: "w-full max-w-7xl mx-auto",
-  title2: "text-2xl md:text-6xl font-bold",
+  title2: "text-3xl md:text-6xl font-bold",
 
   title: "text-2xl font-bold md:text-4xl ",
   paragraph: "text-lg md:text-xl font-semibold leading-[30px]",

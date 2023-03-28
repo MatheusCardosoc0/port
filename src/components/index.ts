@@ -5,7 +5,6 @@ import About from './informations/About';
 import Tech from './informations/Tech';
 import Experience from './informations/Experience';
 import Works from './informations/Works';
-import Feedbacks from './informations/Feedbacks';
 import Contact from './footer/Contact';
 
 export {
@@ -15,6 +14,5 @@ export {
   Tech,
   Experience,
   Works,
-  Feedbacks,
   Contact,
 }

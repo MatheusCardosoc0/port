@@ -4,8 +4,8 @@ export const navLinks = [
     title: "Sobre",
   },
   {
-    id: "hablididades",
-    title: "Hablididades",
+    id: "habilidades",
+    title: "Habilidades",
   },
   {
     id: "contato",
