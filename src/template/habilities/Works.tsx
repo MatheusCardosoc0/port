@@ -7,7 +7,7 @@ const Works = () => {
   return (
     <section className={`${styles.paddingY}`}>
       <div className={`${styles.container} flex flex-col gap-20 justify-center items-center`}>
-        <div>
+        <div className='px-4'>
           <h2 className={`${styles.title2} w-[90%] max-w-[440px]`}>Projetos</h2>
           <p className={`${styles.paragraph} text-white/60`}>Projetos que realizei para praticar minhas habilidades</p>
         </div>
